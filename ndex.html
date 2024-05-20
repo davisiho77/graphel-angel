@@ -3,58 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expertos en Tecnologías Web</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <title>Diseño Multimedia</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="/imagenes/cabecera.jpg" alt="Expertos en Tecnologías Web">
+            <h1>Diseño <span>Multimedia</span></h1>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="/templates/nosotros.html">Nosotros</a></li>
-                    <li><a href="/templates/servicios.html">Servicios</a></li>
-                    <li><a href="/templates/contacto.html">Contacto</a></li>
+                    <li><a href="#" class="active">INICIO</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <main>
-        <section class="banner">
-            <div class="container">
-                <h1>Expertos en Tecnologías Web</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae aspernatur alias, commodi molestiae accusantium.</p>
-                <button>Suscríbete a nuestro boletín</button>
+    <section class="hero">
+        <div class="container-imagen">
+            <img src="/imagenes/cabecera.jpg">
+            <h2>Expertos en Tecnologías Web</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae aspernatur alias, commodi molestiae accusantium.</p>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscríbete a nuestro boletín</h2>
+            <form action="#">
+                <input type="email" placeholder="Ingrese el Email...">
+                <button type="submit">Subscríbete</button>
+            </form>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="service-item">
+                <img src="/imagenes/logo_html.png" alt="HTML5">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
             </div>
-        </section>
-
-        <section class="servicios">
-            <div class="container">
-                <h2>Servicios</h2>
-                <div class="servicio">
-                    <img src="/imagenes/logo_html.png" alt="HTML5">
-                    <h3>HTML5</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
-                </div>
-                <div class="servicio">
-                    <img src="/imagenes/logo_css.png" alt="CSS3">
-                    <h3>CSS3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
-                </div>
-                <div class="servicio">
-                    <img src="/imagenes/logo_brush.png" alt="Diseño Gráfico">
-                    <h3>Diseño Gráfico</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
-                </div>
+            <div class="service-item">
+                <img src="/imagenes/logo_css.png" alt="CSS3">
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
             </div>
-        </section>
-    </main>
-
+            <div class="service-item">
+                <img src="/imagenes/logo_brush.png" alt="Diseño Gráfico">
+                <h3>Diseño Gráfico</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Graphel Desarrollo Web</p>
+            <p>Graphel Desarrollo Web, Copyright &copy; 2017</p>
         </div>
     </footer>
 </body>
