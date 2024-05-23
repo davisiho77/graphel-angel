@@ -1,64 +1,82 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
     <title>Diseño Multimedia</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="Assets/images/icon.png">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Diseño <span>Multimedia</span></h1>
+        <div class="title">
+            <h1>Diseño <span class="blueTitle">Multimedia</span></h1>            
+        </div>
+        <div class="navigator">
             <nav>
-                <ul>
-                    <li><a href="#" class="active">INICIO</a></li>
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                </ul>
+                <a class="inicio" href="index.html">Inicio</a>
+                <a class="nosotros" href="/templates/nosotros.html">Nosotros</a>
+                <a class="servicios" href="/templates/servicios.html">Servicios</a>
+                <a class="contacto" href="/templates/contacto.html">Contacto</a>
             </nav>
         </div>
     </header>
-    <section class="hero">
-        <div class="container-imagen">
-            <img src="/imagenes/cabecera.jpg">
-            <h2>Expertos en Tecnologías Web</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae aspernatur alias, commodi molestiae accusantium.</p>
+    
+    <div class="imagen-cabecera-contenedor">
+        <img class="imagen-cabecera" src="/imagenes/cabecera.jpg" alt="computer">
+        
+        <div class="texto-imagen">
+            <h1>Expertos En Tecnologías Web</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione adipisci aut dicta rerum enim odio libero quod, eos ut officiis esse. <br>
+                   Sapiente ad eius debitis voluptatem officia nisi dolore voluptate.
+                </p>
         </div>
-    </section>
-    <section class="newsletter">
-        <div class="container">
-            <h2>Subscríbete a nuestro boletín</h2>
-            <form action="#">
-                <input type="email" placeholder="Ingrese el Email...">
-                <button type="submit">Subscríbete</button>
-            </form>
+    </div>
+
+    <div class="subscribe">
+
+        <div class="text">
+            <h2>Subscríbete a nuestro boletín</h2>  
         </div>
-    </section>
-    <section class="services">
-        <div class="container">
-            <div class="service-item">
-                <img src="/imagenes/logo_html.png" alt="HTML5">
-                <h3>HTML5</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-            </div>
-            <div class="service-item">
-                <img src="/imagenes/logo_css.png" alt="CSS3">
-                <h3>CSS3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-            </div>
-            <div class="service-item">
-                <img src="/imagenes/logo_brush.png" alt="Diseño Gráfico">
-                <h3>Diseño Gráfico</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-            </div>
+
+        <div class="email">
+            <input class="input" type="text" name="email" placeholder="Ingresa tu Email..." required>
+            <button class="btn" type="submit">Subscríbete</button>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>Graphel Desarrollo Web, Copyright &copy; 2017</p>
+
+    </div>
+
+    <div class="trilogy">
+
+        <div class="html">
+            <img src="/imagenes/logo_html.png" alt="html5">
+            <h2>HTML5</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Tempore, consequatur porro! Quia, at! <br>
+                 Ducimus dolorem, est asfaji.</p>
         </div>
-    </footer>
-</body>
+
+        <div class="css">
+            <img src="/imagenes/logo_css.png" alt="css3">
+            <h2>CSS3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Tempore, consequatur asfaji! Quia, at! <br>
+                 Ducimus dolorem, est asfaji.</p>
+        </div>
+
+        <div class="diseño-grafico">
+            <img src="/imagenes/logo_brush.png" alt="Diseño-grafico">
+            <h2>Diseño Grafico</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Tempore, consequatur asfaji! Quia, at! <br>
+                 Ducimus dolorem, est asfaji.</p>
+        </div>
+
+    </div>
+
+</body>    
+<footer>
+        <p>Graphel Desarrollo Web, CopyRight © 2024</p>
+</footer>
 </html>
