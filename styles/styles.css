@@ -333,45 +333,7 @@
       
       
       /* CAMBIANDO EL COLOR DE LOS BOTONES HEADER */
-      
-      /* SERVICIOS:  */
-      .inicio-servicios{
-          color: #fff;
-      }
-      .nosotros-servicios{
-          color: #fff;
-      }
-      .servicios-servicios{
-          color: #1293D4;
-      }
-      .contacto-servicios{
-          color: #fff;
-      }
-      
-      /* NOSOTROS:  */
-      .inicio-nosotros{
-          color: #fff;
-      }
-      .nosotros-nosotros{
-          color: #1293D4;
-      }
-      .servicios-nosotros{
-          color: #fff;
-      }
-      .contacto-nosotros{
-          color: #fff;
-      }
-      
-      /* CONTACTO:  */
-      .inicio-contacto{
-          color: #fff;
-      }
-      .nosotros-contacto{
-          color: #fff;
-      }
-      .servicios-contacto{
-          color: #fff;
-      }
-      .contacto-contacto{
-          color: #1293D4;
+     
+      .azul{
+        color: #1293D4;
       }
